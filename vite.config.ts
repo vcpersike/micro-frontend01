@@ -9,7 +9,8 @@ export default defineConfig({
       name: 'microFront01',
       filename: 'remoteEntry.js',
       exposes: {
-        './Button': './src/Button',
+        './Button': './src/App.tsx',
+        './ReactLogo': './src/ReactLogo.tsx',
       },
       shared: ['react', 'react-dom'],
     })
